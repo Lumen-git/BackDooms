@@ -15,3 +15,5 @@ The 5 main zones are:
 * End
 <br>
 The map is quite simple and barren as (1) that's the point of the Backrooms, (2) Its my first ever map! and more of an opportunity to learn the tools and tricks of map making, and (3) the map is more focused on exploration than it is game play. More to come soon!
+<br>
+The wad file in the main repo will change as I mess around with the map. Always download the most recent release from the Releases tab for the current stable release.
