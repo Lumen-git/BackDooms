@@ -14,5 +14,4 @@ The 5 main zones are:
 * Dark Rooms
 * End
 <br>
-<br>
 The map is quite simple and barren as (1) that's the point of the Backrooms, (2) Its my first ever map! and more of an opportunity to learn the tools and tricks of map making, and (3) the map is more focused on exploration than it is game play. More to come soon!
