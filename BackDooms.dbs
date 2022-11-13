@@ -1,5 +1,5 @@
 type = "Doom Builder Map Settings Configuration";
-gameconfig = "Doom2.cfg";
+gameconfig = "Doom.cfg";
 strictpatches = 0;
 
 maps
