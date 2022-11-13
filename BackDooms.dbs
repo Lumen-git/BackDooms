@@ -1,5 +1,5 @@
 type = "Doom Builder Map Settings Configuration";
-gameconfig = "Doom.cfg";
+gameconfig = "Doom2.cfg";
 strictpatches = 0;
 
 maps
@@ -7,6 +7,18 @@ maps
 	
 	MAP00
 	{
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32;
+		}
+		
 		
 		resources
 		{
@@ -20,28 +32,38 @@ maps
 				notfortesting = 0;
 			}
 			
+		}
+		
+	}
+	
+	
+	MAP01
+	{
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 32;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		
+		
+		resources
+		{
 			
-			resource1
+			resource0
 			{
 				type = 0;
-				location = "C:\\Users\\aimor\\Desktop\\DOOM.WAD";
+				location = "C:\\Users\\aimor\\Desktop\\DOOM2.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
 			}
 			
-		}
-		
-		
-		grid
-		{
-			background = "";
-			backsource = 0;
-			backoffsetx = 0;
-			backoffsety = 0;
-			backscalex = 100;
-			backscaley = 100;
-			gridsize = 8;
 		}
 		
 	}
