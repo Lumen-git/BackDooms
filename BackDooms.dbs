@@ -1,0 +1,50 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "Doom2.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP00
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\aimor\\Desktop\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			
+			resource1
+			{
+				type = 0;
+				location = "C:\\Users\\aimor\\Desktop\\DOOM.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+		}
+		
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 4;
+		}
+		
+	}
+	
+}
+
