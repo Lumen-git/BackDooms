@@ -1,5 +1,5 @@
 type = "Doom Builder Map Settings Configuration";
-gameconfig = "Doom2.cfg";
+gameconfig = "Doom_Doom2Doom.cfg";
 strictpatches = 0;
 
 maps
@@ -19,7 +19,6 @@ maps
 			gridsize = 32;
 		}
 		
-		
 		resources
 		{
 			
@@ -31,11 +30,8 @@ maps
 				option2 = 0;
 				notfortesting = 0;
 			}
-			
 		}
-		
 	}
-	
 	
 	MAP01
 	{
@@ -45,12 +41,14 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 32;
+			gridsize = 512;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
 		}
-		
 		
 		resources
 		{
@@ -62,11 +60,56 @@ maps
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
+				requiredarchives = "";
 			}
-			
+		}
+		defaultfloortexture = "FLAT5_5";
+		defaultceiltexture = "CEIL3_5";
+		defaulttoptexture = "TANROCK2";
+		defaultwalltexture = "TANROCK2";
+		defaultbottomtexture = "TANROCK2";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = -2835.995f;
+		viewpositiony = 1264.561f;
+		viewscale = 0.07613719f;
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
 	}
-	
 }
-
