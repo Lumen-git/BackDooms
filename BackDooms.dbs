@@ -41,7 +41,7 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 512;
+			gridsize = 256;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
@@ -80,9 +80,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -2835.995f;
-		viewpositiony = 1264.561f;
-		viewscale = 0.07613719f;
+		viewpositionx = 4143.716f;
+		viewpositiony = 1469.937f;
+		viewscale = 0.8003135f;
 		
 		reloadresourceprecommand
 		{
@@ -110,6 +110,18 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+		
+		plugins
+		{
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+				}
+			}
 		}
 	}
 }
