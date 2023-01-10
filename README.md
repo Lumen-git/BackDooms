@@ -1,5 +1,5 @@
 # BackDooms
-I found this WAD on a floppy disk jammed under the floorboards. Can you escape tha Back Dooms?
+I found this WAD on a floppy disk jammed under the floorboards. Can you escape the Back Dooms?
 
 The Back Dooms is a Doom WAD based on the Back Rooms, a mono-yellow nightmare of infinite rooms with seemingly no use. Stuck in the Back Rooms, Doom Guy must find the 4 exit signs to reveal the main exit and escape! Good luck!
 
